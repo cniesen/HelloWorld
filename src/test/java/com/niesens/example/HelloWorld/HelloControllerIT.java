@@ -1,4 +1,4 @@
-package hello;
+package com.niesens.example.HelloWorld;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
@@ -36,6 +36,6 @@ public class HelloControllerIT {
     public void getHello() throws Exception {
         ResponseEntity<String> response = template.getForEntity(base.toString(),
                 String.class);
-        assertThat(response.getBody(), equalTo("Greetings from Spring Boot!"));
+        assertThat(response.getBody(), startsWith("Greetings from Spring Boot!"));
     }
 }

@@ -1,4 +1,4 @@
-package hello;
+package com.niesens.example.HelloWorld;
 
 import java.util.Arrays;
 
