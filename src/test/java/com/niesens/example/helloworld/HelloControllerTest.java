@@ -1,4 +1,4 @@
-package com.niesens.example.HelloWorld;
+package com.niesens.example.helloworld;
 
 import static org.hamcrest.Matchers.startsWith;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;

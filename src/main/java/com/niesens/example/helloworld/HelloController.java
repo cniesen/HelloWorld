@@ -1,4 +1,4 @@
-package com.niesens.example.HelloWorld;
+package com.niesens.example.helloworld;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
